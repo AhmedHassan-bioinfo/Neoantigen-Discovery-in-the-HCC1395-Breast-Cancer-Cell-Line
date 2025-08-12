@@ -52,8 +52,7 @@ All containers are pulled automatically by Nextflow; no manual installation requ
 
 6. Quick Start
 # Clone repository
-git clone https://github.com/ahmedhassan/proteogenomic-neoantigen.git
-cd proteogenomic-neoantigen
+git clone [https://github.com/ahmedhassan/proteogenomic-neoantigen.git](https://github.com/AhmedHassan-bioinfo/Neoantigen-Discovery-in-the-HCC1395-Breast-Cancer-Cell-Line/edit/main/README.md)
 
 # Launch the workflow (Nextflow ≥23.04)
 nextflow run main.nf \
