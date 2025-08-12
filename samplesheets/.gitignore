@@ -1,0 +1,65 @@
+# Nextflow work & cache
+work/
+.nf-test/
+.cache/
+.conda/
+
+# Pipeline results (large output)
+results/
+output/
+logs/
+trace.txt
+report.html
+timeline.html
+dag.png
+
+# Temporary / intermediate files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# FASTQ / sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# BAM / CRAM files
+*.bam
+*.bam.bai
+*.cram
+*.cram.crai
+
+# VCF files
+*.vcf
+*.vcf.gz
+*.tbi
+
+# STAR index & genome indexes
+STARIndex/
+*.ht2
+*.bt2
+*.fa
+*.fasta
+*.fai
+*.dict
+*.gtf
+*.gff
+*.gff3
+
+# Large archives
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.bz2
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python / R cache
+__pycache__/
+*.Rhistory
+*.RData
